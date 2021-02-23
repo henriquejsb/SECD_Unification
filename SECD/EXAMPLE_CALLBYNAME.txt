@@ -1,0 +1,1 @@
+(App (Lambda "x" (Const 1)) (App (Fix (Lambda "f" (Lambda "y" (App (Var "f") (Var "y"))))) (Const 0)))

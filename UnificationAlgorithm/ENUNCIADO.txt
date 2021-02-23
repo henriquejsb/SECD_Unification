@@ -1,0 +1,16 @@
+Segundo trabalho:
+
+
+1) Defina um data em Haskell para representar tipos funcionais (a -> b), variáveis de tipos e as constantes de tipos Int e Bool.
+
+2) Implemente em Haskell uma função, unify,  que dada uma lista de equações de tipos retorna uma lista de substituições (equações em solved form) que são o unificador mais geral entre os dois tipos dados como input, ou o resultado Nothing, se os dois tipos não forem unificáveis. Para isso adapte o algoritmo de unificação de termos de primeira ordem ao caso particular em que os termos são tipos.
+
+3) Baseado no algoritmo de unificação implementado na alínea anterior implemente em Haskell o algoritmo W de inferência de tipos de Damas-Milner.
+
+Referências:
+
+- Unification theory (cap 2.2.3), F. Baader and W. Snyder, Handbook of Automated Reasoning.
+- Principal type-schemes for functional programs, L. Damas and R. Milner, POPL 1982.
+
+
+Prazo para Entrega: 29 de Maio

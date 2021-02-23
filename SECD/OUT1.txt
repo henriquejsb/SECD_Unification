@@ -1,0 +1,46 @@
+(App (Lambda "x" (Var "x")) (App (Lambda "y" ((Const 5) :+ (Const 2))) (Const 1))
+
+
+[([],[],[LDF [LD 0,RTN],LDF [LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],AP,HALT],[],fromList [])
+
+
+([A 1],[],[LDF [LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],AP,HALT],[],fromList [(1,([LD 0,RTN],[]))])
+
+
+
+([A 2,A 1],[],[AP,HALT],[],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))]),
+
+
+
+([],[2],[LD 0,RTN],[([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))])
+
+
+([],[2],[LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP,RTN],[([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))])
+
+
+([A 3],[2],[LDF [LDC 1],AP,RTN],[([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2]))]),
+
+
+([A 4,A 3],[2],[AP,RTN],[([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))]),
+
+
+
+([],[4,2],[LDC 5,LDC 2,ADD,RTN],[([],[2],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))])
+
+
+,([I 5],[4,2],[LDC 2,ADD,RTN],[([],[2],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))]),
+
+
+([I 2,I 5],[4,2],[ADD,RTN],[([],[2],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))]),
+
+
+([I 7],[4,2],[RTN],[([],[2],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))]),
+
+
+([I 7],[2],[RTN],[([],[],[HALT])],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))]),
+
+
+([I 7],[],[HALT],[],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))]),
+
+
+([I 7],[],[],[],fromList [(1,([LD 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[])),(3,([LDC 5,LDC 2,ADD,RTN],[2])),(4,([LDC 1],[2]))])]

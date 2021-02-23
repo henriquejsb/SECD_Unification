@@ -1,0 +1,77 @@
+([],[],[LDRF [LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],LDC 3,AP,HALT],[],fromList [])
+
+([A 1],[],[LDC 3,AP,HALT],[],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 3,A 1],[],[AP,HALT],[],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 3,A 1],[LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 3],[I 3,A 1],[SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 3,A 1],[LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 3],[I 3,A 1],[LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([A 1,I 3],[I 3,A 1],[LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 3,A 1,I 3],[I 3,A 1],[LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1,I 3,A 1,I 3],[I 3,A 1],[SUB,AP,MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 2,A 1,I 3],[I 3,A 1],[AP,MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 2,A 1],[LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[
+HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+
+([I 2],[I 2,A 1],[SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 2,A 1],[LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 2],[I 2,A 1],[LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([A 1,I 2],[I 2,A 1],[LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 2,A 1,I 2],[I 2,A 1],[LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1,I 2,A 1,I 2],[I 2,A 1],[SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1,A 1,I 2],[I 2,A 1],[AP,MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 1,A 1],[LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1],[I 1,A 1],[SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 1,A 1],[LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1],[I 1,A 1],[LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([A 1,I 1],[I 1,A 1],[LD 0,LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1,A 1,I 1],[I 1,A 1],[LDC 1,SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 1,I 1,A 1,I 1],[I 1,A 1],[SUB,AP,MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 0,A 1,I 1],[I 1,A 1],[AP,MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 0,A 1],[LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([I 1],[I 1,A 1],[MUL,JOIN]),([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 0],[I 0,A 1],[SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[([I 1],[I 1,A 1],[MUL,JOIN]),([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([],[I 0,A 1],[LDC 0,JOIN],[([],[],[RTN]),([I 1],[I 1,A 1],[MUL,JOIN]),([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 0],[I 0,A 1],[JOIN],[([],[],[RTN]),([I 1],[I 1,A 1],[MUL,JOIN]),([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 0],[I 0,A 1],[RTN],[([I 1],[I 1,A 1],[MUL,JOIN]),([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+
+([I 0,I 1],[I 1,A 1],[MUL,JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[I 1,A 1],[JOIN],[([],[],[RTN]),([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[I 1,A 1],[RTN],[([I 2],[I 2,A 1],[MUL,JOIN]),([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0,I 2],[I 2,A 1],[MUL,JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[I 2,A 1],[JOIN],[([],[],[RTN]),([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[I 2,A 1],[RTN],[([I 3],[I 3,A 1],[MUL,JOIN]),([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0,I 3],[I 3,A 1],[MUL,JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[I 3,A 1],[JOIN],[([],[],[RTN]),([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[I 3,A 1],[RTN],[([],[],[HALT])],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[],[HALT],[],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])
+([I 0],[],[],[],fromList [(1,([LD 0,SEL [LDC 0,JOIN] [LD 0,LD 1,LD 0,LDC 1,SUB,AP,MUL,JOIN],RTN],[A 1]))])

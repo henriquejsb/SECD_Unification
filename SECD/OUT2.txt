@@ -1,0 +1,17 @@
+(App (Lambda "x" (Const 0)) (App (Lambda "y" ((Const 5) :+ (Const 2))) (Const 1)))
+
+[([],[],[LDF [LDC 0,RTN],LDF [LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],AP,HALT],[],fromList []),
+
+([A 1],[],[LDF [LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],AP,HALT],[],fromList [(1,([LDC 0,RTN],[]))]),
+
+
+([A 2,A 1],[],[AP,HALT],[],fromList [(1,([LDC 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))]),([],[2],[LDC 0,RTN],[([],[],[HALT])],fromList [(1,([LDC 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))]),
+
+
+([I 0],[2],[RTN],[([],[],[HALT])],fromList [(1,([LDC 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))]),
+
+
+([I 0],[],[HALT],[],fromList [(1,([LDC 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))]),
+
+
+([I 0],[],[],[],fromList [(1,([LDC 0,RTN],[])),(2,([LDF [LDC 5,LDC 2,ADD,RTN],LDF [LDC 1],AP],[]))])]
