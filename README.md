@@ -1,2 +1,2 @@
 # SECD_Unification
-An implementation of a SECD with call-by-name and call-by-value approach , and an implementation of the Unification Algorithm in Haskell.
+An implementation of a SECD with call-by-name and call-by-value approach , and an implementation of the Unification Algorithm in Haskell for type inference and unification, in Haskell.
